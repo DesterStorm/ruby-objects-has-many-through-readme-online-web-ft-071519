@@ -25,7 +25,7 @@ class Customer
     @meals
   end
   
-  def waiter
+  def waiters
     @waiters
   end
 end
