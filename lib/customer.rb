@@ -7,7 +7,8 @@ class Customer
     @name = name 
     @age = age 
     @@all << self 
-    
+    @waiters = []
+    @meals = []
   end
   
   def self.all
