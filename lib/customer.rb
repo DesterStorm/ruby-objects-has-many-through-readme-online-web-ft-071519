@@ -21,4 +21,11 @@ class Customer
     @meals << meals
   end
   
+  def meals
+    @meals
+  end
+  
+  def waiters
+    @waiters
+  end
 end
